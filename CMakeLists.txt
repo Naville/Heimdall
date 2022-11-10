@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.13.4)
+project(Heimdall LANGUAGES C CXX)
+if(APPLE)
+    enable_language(OBJC OBJCXX)
+endif()
+add_library()
